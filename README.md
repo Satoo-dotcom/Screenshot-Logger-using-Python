@@ -24,3 +24,21 @@ A Python-based screenshot logger that captures your screen at intervals, skips d
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+🧪 Usage
+Run the script:
+python main.py
+
+Pause:
+touch pause.flag
+
+Resume:
+rm pause.flag
+
+📦 Packaging
+To build as standalone:
+pip install pyinstaller
+pyinstaller --onefile screenshot_logger.py
+
+⚠️ Disclaimer
+Use ethically and with proper authorization.
