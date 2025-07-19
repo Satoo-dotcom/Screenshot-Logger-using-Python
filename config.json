@@ -1,0 +1,10 @@
+{
+  "interval": 3,
+  "save_dir": "screenshots",
+  "remote_upload": true,
+  "upload_url": "http://yourserver.com/upload",
+  "max_retries": 5,
+  "retry_backoff_factor": 2,
+  "log_file": "screenshot_log.json",
+  "max_saved_files": 100
+}
