@@ -1,3 +1,21 @@
+# Payroll Web App System
+
+A simple payroll management system built with Flask and SQLite. Features include employee management and payroll calculation.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the app:
+   ```bash
+   python app.py
+   ```
+3. Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
 # Screenshot-Logger-using-Python
 A Python-based screenshot logger that captures your screen at intervals, skips duplicates, logs events in JSON, auto-cleans old files, and supports remote uploads with retry logic. Includes pause/resume via flag file and background upload threading.
 
